@@ -2,7 +2,7 @@
 
 FROM vertigo/docker-base:latest
 
-MAINTAINER Andre Fernandes
+MAINTAINER Andre Fernandes <andre@vertigo.com.br>
 
 WORKDIR /opt
 
@@ -19,4 +19,3 @@ VOLUME /opt/data/ldap
 EXPOSE 389
 
 CMD /opt/startldap.sh
-
