@@ -1,0 +1,5 @@
+dn: dc=vertigo,dc=com,dc=br
+objectClass: dcObject
+objectClass: organization
+dc: vertigo
+o : vertigo
