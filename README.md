@@ -14,3 +14,7 @@ You can run both a ldap server (as in "runldap.sh") and a ldap client
 (as in "runclient.sh"). Note the use of "--link" in order to the client
 be able to reach the server by the "ldap" hostname.
 
+### Samples
+
+Sample scripts are suited to work from a ldap client. Try using "runclient.sh"
+(it mounts the "samples" folder).
