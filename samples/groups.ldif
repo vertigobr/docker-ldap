@@ -1,0 +1,4 @@
+dn: ou=Groups,dc=vertigo,dc=com,dc=br
+objectClass: organizationalUnit
+ou: Groups
+

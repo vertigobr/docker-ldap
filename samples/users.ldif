@@ -1,0 +1,4 @@
+dn: ou=Users,dc=vertigo,dc=com,dc=br
+objectClass: organizationalUnit
+ou: Users
+

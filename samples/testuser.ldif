@@ -1,0 +1,9 @@
+dn: cn=Test,ou=Users,dc=vertigo,dc=com,dc=br
+cn: Test
+sn: User
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetOrgPerson
+userPassword: senha
+#uid: test
+#mail: test@aqui.com
