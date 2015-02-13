@@ -6,5 +6,5 @@ else
 fi
 /opt/initldap.sh
 chown -R ldap:ldap /opt/data/ldap
-exec /usr/sbin/slapd -u ldap -d 3
+exec /usr/sbin/slapd -u ldap -d 3 -h "ldap:/// ldaps:/// ldapi:///"
 

@@ -16,3 +16,6 @@ sed 's/dc=my-domain,dc=com/dc=vertigo,dc=com,dc=br/g' -i /etc/openldap/slapd.d/c
 echo 'olcAccess: {0}to attrs=userPassword by self write by dn.base="cn=Manager,dc=vertigo,dc=com,dc=br" write by anonymous auth by * none' >> /etc/openldap/slapd.d/cn\=config/olcDatabase\=\{2\}hdb.ldif
 echo 'olcAccess: {1}to * by dn.base="cn=Manager,dc=vertigo,dc=com,dc=br" write by self write by * read' >> /etc/openldap/slapd.d/cn\=config/olcDatabase\=\{2\}hdb.ldif
 
+# admin user to change schemas
+echo "olcRootDN: cn=admin,cn=config" >> /etc/openldap/slapd.d/cn\=config/olcDatabase\=\{0\}config.ldif
+echo "olcRootPW: {SSHA}NCR+TaeaFXzjRTxfZtS1YFf7gfADAXYY" >> /etc/openldap/slapd.d/cn\=config/olcDatabase\=\{0\}config.ldif
